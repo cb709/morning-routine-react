@@ -1,0 +1,34 @@
+[
+    {
+      "_id": "6335da7b8e45b15331c0204c",
+      "isActive": true,
+      "name": "Reading",
+      "picture": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
+      "time": 36,
+      "about": "Dolore do anim commodo ea dolor dolor eu reprehenderit fugiat. Duis esse labore et velit fugiat sint veniam deserunt velit duis. Aliquip ullamco labore reprehenderit aliqua. Lorem duis laborum duis eu nisi culpa voluptate ea dolor fugiat cillum. Laborum nisi sunt aliqua do magna et consectetur nisi. Quis laborum et aliquip culpa. Aute elit adipisicing qui tempor do consequat veniam duis est qui non excepteur voluptate.\r\n"
+    },
+    {
+      "_id": "6335da7bfc8506052a9c733e",
+      "isActive": false,
+      "name": "Exercising",
+      "picture": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZXhlcmNpc2V8ZW58MHx8MHx8&w=1000&q=80",
+      "time": 40,
+      "about": "Lorem voluptate esse ipsum amet voluptate proident aliqua mollit irure deserunt minim. Non eiusmod veniam dolore id eiusmod exercitation. Duis labore sint ex pariatur cillum ullamco in in voluptate commodo quis et. Excepteur enim duis dolor commodo consectetur laborum reprehenderit magna commodo labore eu nulla ex. Consequat non cupidatat ipsum proident.\r\n"
+    },
+    {
+      "_id": "6335da7b4fd888ed4941c64e",
+      "isActive": true,
+      "name": "Yoga",
+      "picture": "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80",
+      "time": 20,
+      "about": "Reprehenderit consectetur ad mollit est exercitation laboris incididunt. Culpa esse ad occaecat proident irure. Quis consequat consectetur magna aliquip. Sint fugiat cillum deserunt nulla eu ullamco excepteur excepteur. Occaecat voluptate minim veniam mollit nulla ut.\r\n"
+    },
+    {
+      "_id": "6335da7b2fba09b69acaea4b",
+      "isActive": true,
+      "name": "Walking",
+      "picture": "https://images.unsplash.com/photo-1494959764136-6be9eb3c261e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdhbGtpbmd8ZW58MHx8MHx8&w=1000&q=80",
+      "time": 34,
+      "about": "Elit reprehenderit quis pariatur dolore nisi. Ullamco sunt incididunt commodo eu adipisicing ullamco fugiat ullamco culpa quis. Deserunt aute velit excepteur cillum tempor anim. Excepteur labore ullamco deserunt adipisicing excepteur minim nulla exercitation deserunt. Magna enim aliquip qui ullamco nulla irure ullamco aliquip. Sit consequat deserunt ullamco adipisicing id dolore mollit voluptate laborum amet. Tempor irure ut ex aliquip commodo.\r\n"
+    }
+  ]
