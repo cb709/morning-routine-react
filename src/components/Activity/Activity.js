@@ -1,17 +1,21 @@
 import React, { useState } from "react";
+import { setToLocalStorageByKey } from "../../Utilites/utilities";
 import "./Activity.css";
 
-const Activity = ({activity, updateTime}) => {
+const Activity = ({activity, addTime, decreaseTime}) => {
   // console.log(props);
   const { name, picture, time, about, isActive } = activity;
   const [disable, setDisable] = useState(isActive)
-  // console.log(disable)
+
   const updateButton = () => {
     if(!disable) {
       setDisable(true)
+    } else {
+      setDisable(false)
     }
-    // console.log(disable)
+    setToLocalStorageByKey(name, !disable)
   }
+
   return (
     <div className="activity border rounded">
       <div>
@@ -25,7 +29,15 @@ const Activity = ({activity, updateTime}) => {
         <p className="mb-1 mt-1 requiredTime">
           <strong>Time: {time} min </strong>
         </p>
-        <button onClick={()=> {updateTime(time); updateButton()}} className="btn activity-btn" disabled={disable ? true : false}>{ disable ? 'Added' : 'Add to List'}</button>
+        <button onClick={()=>{
+          if (!disable) {
+            addTime(time); 
+            updateButton()
+          }else{
+            decreaseTime(time); 
+            updateButton()
+          }
+        }} className={ disable ? "btn activity-btn added" : "btn activity-btn"}>{ disable ? 'Remove' : 'Add to List'}</button>
       </div>
     </div>
   );

@@ -4,12 +4,15 @@ import ActivitiesData from '../ActivitiesData/ActivitiesData';
 
 const Main = () => {
     const [totalTime, setTotalTime] = useState(0)
-    const updateTime = (time) => {
+    const addTime = (time) => {
         setTotalTime(totalTime + time)
+    }
+    const decreaseTime = (time) => {
+        setTotalTime(totalTime - time)
     }
     return (
         <div className="container main py-3">
-            <Activities updateTime={updateTime}></Activities>
+            <Activities addTime={addTime} decreaseTime={decreaseTime}></Activities>
             <ActivitiesData time={totalTime}></ActivitiesData>
         </div>
     );

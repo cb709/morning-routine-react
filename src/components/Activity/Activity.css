@@ -26,3 +26,7 @@
 .requiredTime {
     margin-left: 5px;
 }
+
+.added {
+    background: var(--btn-hover);
+}
