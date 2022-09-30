@@ -1,6 +1,9 @@
+import React from 'react';
 import './App.css';
 import Activities from './components/Activities/Activities';
+import ActivitiesData from './components/ActivitiesData/ActivitiesData';
 import Header from './components/Header/Header';
+
 
 function App() {
   return (
@@ -8,9 +11,7 @@ function App() {
       <Header></Header>
       <div className="container main py-3">
         <Activities></Activities>
-        <div className="activities-data-container border rounded">
-          <h1>I am the data</h1>
-        </div>
+        <ActivitiesData></ActivitiesData>
       </div>
     </div>
   );

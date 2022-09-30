@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+
+:root {
+  --card-background:  rgba(240, 248, 255, 0.822);
+  --btn: rgb(142, 21, 255);
+  --btn-hover: rgb(68, 9, 122);
+  --border:rgba(218, 218, 218, 0.719);
+}
 *, ::before, ::after {
   box-sizing: border-box;
   padding: 0;
@@ -25,7 +32,7 @@ a {
 }
 
 .border {
-  border: 1px solid rgba(187, 187, 187, 0.719);
+  border: 1px solid var(--border);
 }
 
 .rounded {
@@ -57,12 +64,14 @@ a {
   margin: auto;
 }
 
-
-
 .main {
   display: grid;
   grid-template-columns: 3.5fr 1.5fr;
   gap: 20px;
+}
+
+.activities-data-container {
+  padding: 20px;
 }
 
 @media screen and (max-width:1024px) {

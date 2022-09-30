@@ -1,0 +1,5 @@
+.time {
+    background-color: var(--card-background);
+    margin: 20px 0;
+    padding: 15px;
+}
