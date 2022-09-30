@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import ProfileCard from "../ProfileCard/ProfileCard";
 import TimeRequired from "../TimeRequired/TimeRequired";
 import "./ActivitiesData.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ActivitiesData = ({ time }) => {
   const [breakTime, setBreakTime] = useState(0)
@@ -27,6 +29,16 @@ const ActivitiesData = ({ time }) => {
     setBreakTime(localTime)
 
   },[])
+  const notify = () => toast("All Activity Completed");
+
+  const clearData = () => {
+    localStorage.clear();
+    setBreakTime(0)
+    let activeBtn = document.querySelector('.active');
+    if(activeBtn) {
+      activeBtn.classList.remove('active')
+    }
+  };
 
   return (
     <div className="activities-data-container border rounded">
@@ -44,7 +56,9 @@ const ActivitiesData = ({ time }) => {
         <h3 className="mb-1">Total Time</h3>
         <TimeRequired time={time} breakTime={breakTime}></TimeRequired>
       </div>
-      <button className="btn complete-btn">All Completed</button>
+      <button className="btn complete-btn" onClick={clearData}>Clear</button>
+      <button className="btn complete-btn" onClick={notify}>All Completed</button>
+      <ToastContainer />
     </div>
   );
 };

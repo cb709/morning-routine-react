@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 :root {
-  --card-background:  rgba(240, 248, 255, 0.822);
+  --card-background: rgba(240, 248, 255, 0.822);
   --btn: rgb(142, 21, 255);
   --btn-hover: rgb(68, 9, 122);
-  --border:rgba(218, 218, 218, 0.719);
+  --border: rgba(218, 218, 218, 0.719);
 }
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -24,7 +25,7 @@ a {
 .btn {
   border: none;
   padding: 10px 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn:hover {
@@ -39,6 +40,9 @@ a {
   border-radius: 10px;
 }
 
+.p-2 {
+  padding: 20px;
+}
 .px-1 {
   padding: 0 5px;
 }
@@ -88,7 +92,7 @@ button[disabled]:hover {
   background-color: #333;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     max-width: 94%;
     margin: auto;
@@ -98,7 +102,7 @@ button[disabled]:hover {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .main {
     display: grid;
     grid-template-columns: 1fr;
