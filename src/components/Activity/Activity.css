@@ -23,3 +23,6 @@
 .activity-btn:hover {
     background-color: var(--btn-hover);
 }
+.requiredTime {
+    margin-left: 5px;
+}

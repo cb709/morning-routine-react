@@ -9,3 +9,18 @@
 .complete-btn:hover {
     background-color: var(--btn-hover);
 }
+
+.break-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.break-buttons button {
+    border-radius: 7px;
+}
+
+.break-buttons button:hover {
+    background-color: var(--btn-hover);
+    color: white;
+}

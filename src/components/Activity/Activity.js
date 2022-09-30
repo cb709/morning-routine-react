@@ -10,7 +10,7 @@ const Activity = ({activity, updateTime}) => {
     if(!disable) {
       setDisable(true)
     }
-    console.log(disable)
+    // console.log(disable)
   }
   return (
     <div className="activity border rounded">
@@ -22,7 +22,7 @@ const Activity = ({activity, updateTime}) => {
         </div>
       </div>
       <div>
-        <p className="mb-1 mt-1">
+        <p className="mb-1 mt-1 requiredTime">
           <strong>Time: {time} min </strong>
         </p>
         <button onClick={()=> {updateTime(time); updateButton()}} className="btn activity-btn" disabled={disable ? true : false}>{ disable ? 'Added' : 'Add to List'}</button>

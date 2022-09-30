@@ -59,11 +59,18 @@ a {
 .mt-2 {
   margin-top: 20px;
 }
+.mt-4 {
+  margin-top: 40px;
+}
 .container {
   max-width: 1200px;
   margin: auto;
 }
 
+.active {
+  background-color: var(--btn-hover);
+  color: white;
+}
 .main {
   display: grid;
   grid-template-columns: 3.5fr 1.5fr;
