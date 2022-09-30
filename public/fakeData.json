@@ -4,7 +4,7 @@
       "isActive": false,
       "name": "Reading",
       "picture": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
-      "time": 36,
+      "time": 35,
       "about": "Dolore do anim commodo ea dolor dolor eu reprehenderit fugiat. Duis esse labore et velit fugiat sint veniam deserunt velit duis. Aliquip ullamco labore reprehenderit aliqua. Lorem duis laborum duis eu nisi culpa voluptate ea dolor fugiat cillum. Laborum nisi sunt aliqua do magna et consectetur nisi. Quis laborum et aliquip culpa. Aute elit adipisicing qui tempor do consequat veniam duis est qui non excepteur voluptate.\r\n"
     },
     {
@@ -28,7 +28,23 @@
       "isActive": false,
       "name": "Walking",
       "picture": "https://images.unsplash.com/photo-1494959764136-6be9eb3c261e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdhbGtpbmd8ZW58MHx8MHx8&w=1000&q=80",
-      "time": 34,
+      "time": 25,
+      "about": "Elit reprehenderit quis pariatur dolore nisi. Ullamco sunt incididunt commodo eu adipisicing ullamco fugiat ullamco culpa quis. Deserunt aute velit excepteur cillum tempor anim. Excepteur labore ullamco deserunt adipisicing excepteur minim nulla exercitation deserunt. Magna enim aliquip qui ullamco nulla irure ullamco aliquip. Sit consequat deserunt ullamco adipisicing id dolore mollit voluptate laborum amet. Tempor irure ut ex aliquip commodo.\r\n"
+    },
+    {
+      "_id": "6335da7b2fbadg09bacaea4b",
+      "isActive": false,
+      "name": "Coding",
+      "picture": "https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "time": 20,
+      "about": "Lorem voluptate esse ipsum amet voluptate proident aliqua mollit irure deserunt minim. Non eiusmod veniam dolore id eiusmod exercitation. Duis labore sint ex pariatur cillum ullamco in in voluptate commodo quis et. Excepteur enim duis dolor commodo consectetur laborum reprehenderit magna commodo labore eu nulla ex. Consequat non cupidatat ipsum proident.\r\n"
+    },
+    {
+      "_id": "6335da7b2fba0459b69aca4b",
+      "isActive": false,
+      "name": "Writing",
+      "picture": "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d3JpdGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
+      "time": 40,
       "about": "Elit reprehenderit quis pariatur dolore nisi. Ullamco sunt incididunt commodo eu adipisicing ullamco fugiat ullamco culpa quis. Deserunt aute velit excepteur cillum tempor anim. Excepteur labore ullamco deserunt adipisicing excepteur minim nulla exercitation deserunt. Magna enim aliquip qui ullamco nulla irure ullamco aliquip. Sit consequat deserunt ullamco adipisicing id dolore mollit voluptate laborum amet. Tempor irure ut ex aliquip commodo.\r\n"
     }
   ]
