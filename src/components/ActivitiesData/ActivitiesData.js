@@ -4,7 +4,7 @@ import TimeRequired from "../TimeRequired/TimeRequired";
 import TimeSpending from "../TimeSpending/TimeSpending";
 import './ActivitiesData.css'
 
-const ActivitiesData = () => {
+const ActivitiesData = ({time}) => {
   return (
     <div className="activities-data-container border rounded">
       <ProfileCard></ProfileCard>
@@ -14,7 +14,7 @@ const ActivitiesData = () => {
       </div>
       <div className="mt-2">
         <h3 className="mb-1">Total Time</h3>
-        <TimeRequired></TimeRequired>
+        <TimeRequired time= {time}></TimeRequired>
       </div>
       <button className="btn complete-btn">All Completed</button>
     </div>

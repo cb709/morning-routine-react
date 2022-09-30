@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Activity.css";
 
-const Activity = (props) => {
-  console.log(props);
-  const { name, picture, time, about } = props.activity;
+const Activity = ({activity, updateTime}) => {
+  // console.log(props);
+  const { name, picture, time, about, isActive } = activity;
+  const [disable, setDisable] = useState(isActive)
+  // console.log(disable)
+  const updateButton = () => {
+    if(!disable) {
+      setDisable(true)
+    }
+    console.log(disable)
+  }
   return (
     <div className="activity border rounded">
       <div>
@@ -17,7 +25,7 @@ const Activity = (props) => {
         <p className="mb-1 mt-1">
           <strong>Time: {time} min </strong>
         </p>
-        <button className="btn activity-btn">Add To List</button>
+        <button onClick={()=> {updateTime(time); updateButton()}} className="btn activity-btn" disabled={disable ? true : false}>{ disable ? 'Added' : 'Add to List'}</button>
       </div>
     </div>
   );

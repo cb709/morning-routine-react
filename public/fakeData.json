@@ -1,7 +1,7 @@
 [
     {
       "_id": "6335da7b8e45b15331c0204c",
-      "isActive": true,
+      "isActive": false,
       "name": "Reading",
       "picture": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
       "time": 36,
@@ -17,7 +17,7 @@
     },
     {
       "_id": "6335da7b4fd888ed4941c64e",
-      "isActive": true,
+      "isActive": false,
       "name": "Yoga",
       "picture": "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80",
       "time": 20,
@@ -25,7 +25,7 @@
     },
     {
       "_id": "6335da7b2fba09b69acaea4b",
-      "isActive": true,
+      "isActive": false,
       "name": "Walking",
       "picture": "https://images.unsplash.com/photo-1494959764136-6be9eb3c261e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdhbGtpbmd8ZW58MHx8MHx8&w=1000&q=80",
       "time": 34,

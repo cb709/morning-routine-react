@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import './Activities.css'
 
-const Activities = () => {
+const Activities = ({updateTime}) => {
     
     const [activities, setActivities] = useState([])
 
@@ -16,7 +16,7 @@ const Activities = () => {
     return (
         <div className='activities-container'>
             {
-                activities.map(activity => <Activity key={activity['_id']} activity={activity}></Activity>)
+                activities.map(activity => <Activity key={activity['_id']} activity={activity} updateTime={updateTime}></Activity>)
             }
         </div>
     );
